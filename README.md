@@ -7,7 +7,6 @@ This project performs Exploratory Data Analysis (EDA) on an International T20 Cr
 
 ## Features
 
-* **Data Cleaning:** Dynamically renames and formats messy column names for easier analysis.
 * **Data Analysis:**
 * Identifies the top 3 venues hosting the most matches.
 * Finds the most frequent head-to-head team matchup.
