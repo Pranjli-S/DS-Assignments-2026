@@ -1,40 +1,41 @@
+# Data Science Assignments - 2026
 
-# International T20 Cricket EDA & Scorecard Generator
+This repository is a collection of my Data Science projects and assignments completed in 2026. It demonstrates proficiency in Python, data cleaning, complex numerical operations with NumPy, and statistical visualization.
 
-## Overview
+---
 
-This project performs Exploratory Data Analysis (EDA) on an International T20 Cricket dataset. It cleans the data, answers specific analytical questions, visualizes trends, and includes a custom Python function to generate detailed match scorecards.
+## 🏏 Assignment 01: International T20 Cricket EDA
+**Folder:** `/Assignment-01`
 
-## Features
+A comprehensive analysis of international T20 cricket matches focused on match outcomes and player performance.
 
-* **Data Analysis:**
-* Identifies the top 3 venues hosting the most matches.
-* Finds the most frequent head-to-head team matchup.
-* Calculates and ranks the top 5 teams by overall win percentage.
+* **Key Features:** * Identified top venues and head-to-head team matchups.
+    * Calculated team win percentages and identified trends.
+    * **Scorecard Generator:** A custom function that extracts match data to create a detailed side-by-side batting and bowling scorecard.
+* **Visualizations:** Bar charts for team wins, pie charts for gender distribution, and boxplots for run margins.
+* **Libraries:** `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`.
 
+---
 
-* **Visualizations:** Uses Matplotlib and Seaborn to generate:
-* Bar chart of top teams by total wins.
-* Pie chart of match distribution by gender.
-* Boxplot of win margins (by runs) across genders.
-* Correlation heatmap for numeric variables.
+## 🎬 Assignment 02: IMDB Movie Industry Analysis
+**Folder:** `/Assignment-02`
 
+An exploratory data analysis of 3,000 movies to provide strategic production recommendations for a movie producer.
 
-* **Scorecard Generator:** A custom function that takes match innings data and generates a side-by-side dataframe scorecard. It accurately displays the top 4 batsmen (by runs) and the top 4 opponent bowlers (by wickets and runs conceded), filtering out run-outs from bowler stats.
+* **Business Insights:**
+    * Determined the highest profit-making films and their creative teams.
+    * Analyzed **Return on Investment (ROI)** by language and producer performance.
+    * Performed a "Deep Dive" into the careers of top-performing actors like Samuel L. Jackson.
+* **NumPy Mastery:** Includes exact implementations of 3D array reshaping, axis-based insertion/deletion, broadcasting, and flattening.
+* **EDA Visualizations:**
+    * **Correlation Heatmap:** To find relationships between budget, popularity, and revenue.
+    * **Box Plots:** To visualize profit distribution and outliers across major genres.
+    * **Actor Frequency Plots:** Visualizing director-actor preferences.
+* **Libraries:** `Pandas`, `NumPy`, `Seaborn`.
 
-## Libraries Used
+---
 
-* `pandas`
-* `numpy`
-* `matplotlib`
-* `seaborn`
-
-## How to Run
-
-Download both the .ipynb notebook and the International_T20_Data.csv.zip file.
-
-Open the notebook in Google Colab or Jupyter.
-
-Important: Upload the .zip file to your environment.
-
-Run the cells sequentially. The code is designed to automatically detect and extract the CSV from the ZIP folder before processing.
+## 🚀 Getting Started
+1. Open the `.ipynb` notebook in **Google Colab**.
+2. Upload the required `.csv` file found in the respective assignment folder.
+3. Run all cells to see the statistical outputs and generated plots.
